@@ -1,0 +1,24 @@
+.form_container{
+    width: 30%;
+}
+
+.alarma{
+    color: #af0606;
+}
+
+@media screen and (max-width: 1000px){
+    .form_container{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .form_container{
+        width: 65%;
+    }
+}
+
+.body{
+    background: #ffe259;
+    background: linear-gradient(to right, #531dc0, #a91905); 
+}
